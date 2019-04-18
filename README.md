@@ -1,4 +1,4 @@
-Dynamic Temporal Residual Network for Sequence Modeling: A PyTorch Implementation
+Dynamic Temporal Residual Network for Sequence Modeling
 =================================================================================
 This is a PyTorch implementation of the models proposed in "Dynamic Temporal Residual Network for Sequence Modeling" (Ruijie Yan, Liangrui Peng, Shanyu Xiao, Michael T. Johnson and Shengjin Wang).
 
