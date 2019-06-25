@@ -2,6 +2,13 @@ Dynamic Temporal Residual Network for Sequence Modeling
 =================================================================================
 This is a PyTorch implementation of the models proposed in ***Dynamic Temporal Residual Network for Sequence Modeling***.
 
+## Requirements
+- PyTorch 1.0 or later
+- TensorFlow 1.7 or later
+- easydict
+- pprint
+- progressbar
+
 ## Usage
 ### 1. Data Preparation
 - Step 1
