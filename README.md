@@ -1,6 +1,6 @@
 Dynamic Temporal Residual Network for Sequence Modeling
 =================================================================================
-This is a PyTorch implementation of the DTRN models proposed in ***Dynamic Temporal Residual Network for Sequence Modeling***.
+This is a PyTorch implementation of the models proposed in ***Dynamic Temporal Residual Network for Sequence Modeling***.
 
 ## Usage
 ### 1. Data Preparation
