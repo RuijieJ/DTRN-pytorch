@@ -17,7 +17,7 @@ param = edict()
 param['model_name'] = 'CNNLSTM' # 'CNNLSTM' or 'CNNDTRN'
 param['gpu_id'] = '0'
 param['norm_height'] = 128
-param['image_dir'] = '/data/IAM/data/imgs/lines_h128/'
+param['image_dir'] = '<path_to_IAM_data>/data/imgs/lines_h128/'
 param['alphabet'] = 'DataLoader/alphabet_iam.txt'
 
 f = open(param.alphabet, 'r')
@@ -25,7 +25,7 @@ l = f.readlines()[0]
 f.close()
 param['num_classes'] = len(l) + 1
 
-param['saving_path'] = os.path.join('/data/IAM/models',
+param['saving_path'] = os.path.join('models',
                                     param.model_name,
                                     time.strftime('%Y%m%d-%H:%M:%S', time.localtime()))
 
@@ -53,8 +53,8 @@ param['saving_path'] = os.path.join('/data/IAM/models',
 
 param['train'] = edict()
 param.train['random_seed'] = 2
-param.train['train_list'] = '/data/IAM/data/lang/lines/char/aachen/tr.txt'
-param.train['val_list'] = '/data/IAM/data/lang/lines/char/aachen/va.txt'
+param.train['train_list'] = '<path_to_IAM_data>/data/lang/lines/char/aachen/tr.txt'
+param.train['val_list'] = '<path_to_IAM_data>/data/lang/lines/char/aachen/va.txt'
 param.train['batch_size_tr'] = 16
 param.train['batch_size_va'] = 16
 param.train['continue_train'] = False
@@ -144,6 +144,6 @@ param.net.dtrn['linear_dropout'] = 0.5
 '''
 
 param['test'] = edict()
-param.test['test_list'] = '/data/IAM/data/lang/lines/char/aachen/te.txt'
+param.test['test_list'] = '<path_to_IAM_data>/data/lang/lines/char/aachen/te.txt'
 param.test['batch_size_te'] = 16
-param.test['model_path'] = '/data/IAM/models/CNNLSTM/20190625-09:05:14/m-epoch304.pth.tar'
+param.test['model_path'] = 'models/CNNLSTM/yearmonthday-00:00:00/m-epoch1.pth.tar'
