@@ -102,4 +102,4 @@ inputs, sparse_labels, packed_labels, in_seq_lens, label_len = data_for_one_batc
 
   A vector with the shape of [B]. The length of each input of the batch.
 
-For details, please refer to _DataLoader/IAMDataLoader.py_
+For details, please refer to _DataLoader/dataloader.py_
