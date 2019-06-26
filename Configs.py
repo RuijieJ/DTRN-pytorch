@@ -6,7 +6,7 @@ param = edict()
 # ===== GLOBAL CONFIGURATION =====
 '''
 1. model_name: 'CNNLSTM' or 'CNNDTRN'.
-2. gpu_id:      An int or a list. Multi GPUs will be used if gpu_id is a list.
+2. gpu_id:      A number character.
 3. norm_height: Normalized image height. The height of input images has already been normalized to 128.
 4. image_dir:   The directory path where the input images exist.
 5. alphabet:    The file that includes the character set.
