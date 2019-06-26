@@ -45,6 +45,7 @@ We will use images in _<path_to_IAM_data>/data/imgs/lines_h128_, and ground trut
 
 ### 2. Training and validation
 - Setting configurations
+
 All configurations are in _Configs.py_. Refer to the comments in _Configs.py_ for details. Nevertheless, to run the training program you only need to edit three lines:
 ```
 20th line: param['data_root'] = <path_to_IAM_data>/data/imgs/lines_h128/
@@ -54,6 +55,7 @@ All configurations are in _Configs.py_. Refer to the comments in _Configs.py_ fo
 while keeping other configurations unchanged.
 
 - Train the network
+
 Run the following command to train:
 ```
 python train.py
