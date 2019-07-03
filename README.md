@@ -7,6 +7,7 @@ This is a PyTorch implementation of the models proposed in ***Dynamic Temporal R
 ## Requirements
 - PyTorch 1.0 or later
 - TensorFlow 1.7 or later
+- torch_baidu_ctc
 - easydict
 - pprint
 - progressbar
